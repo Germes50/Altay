@@ -1,0 +1,31 @@
+/* table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    border: 1px solid black;
+}
+
+.right {
+    text-align: right;
+}
+
+thead {
+    background: aliceblue;
+}
+
+tbody {
+    background: greenyellow;
+}
+
+tfoot {
+    background: greenyellow;
+} */
+a{
+text-decoration: none;
+}
+img{
+width: 300px; height:200px
+}

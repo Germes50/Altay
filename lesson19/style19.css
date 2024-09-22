@@ -1,0 +1,28 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #4169e1;
+    border: 1px solid;
+    margin: 50px auto;
+    transition: width 2s, height 2s, transform 2s;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: steps(6, end);
+    /* transition-delay: 1s; */
+    /* transform: rotateZ(45deg); */
+    /* transform: matrix(1, -0.5,0, 0, 1, 0); */
+}
+
+div:hover{
+    width: 400px;
+    height: 500px;
+    transform: rotate(-45deg);
+}
+/* @keyframes first {
+    from {
+        background: #4169e1;
+    }
+    to{
+        background-color: #00ff7f;
+    }
+} */

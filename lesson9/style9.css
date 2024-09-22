@@ -1,0 +1,29 @@
+textarea{
+    resize: none;
+}
+
+form{
+    background: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    margin: 20px auto;
+}
+select{
+    margin: 20px 0;
+}
+
+.for_info{
+    margin: 10px 0;
+}
+input[type="text"]:focus{
+    color: #8B0000;
+    background: forestgreen;
+    border: 1px solid darkorange;
+}
+input[type="submit"]:hover{
+    color: #8B0000;
+    background: forestgreen;
+    border: 1px solid darkorange;
+}

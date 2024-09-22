@@ -1,0 +1,45 @@
+/* span {
+    border: 1px solid red;
+}
+
+ div {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+} 
+
+/* h1, h2 {
+    border: 1px solid red;
+} */
+/* h1 {
+    border: 1px solid brown;
+    height: 100px;
+    display: inline;
+} */
+
+span {
+    border: 1px solid brown;
+    /* display: block; */
+    height: 100px;
+    display: block;
+}
+
+
+
+/* div {
+    border: 1px solid red;
+    height: 200px;
+    display: none;
+}  */
+.container {
+    /* border: 1px solid black; */
+    /* display: inline-flex; */
+    display: inline-block;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 1px solid brown;
+
+}

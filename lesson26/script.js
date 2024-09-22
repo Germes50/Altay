@@ -1,0 +1,27 @@
+'use strict';
+
+// let a = ['hello',[767, 6789, 7473838], 555, 888];
+// // console.log(a[3]);
+// let number = a[10];
+// console.log(number);
+// let arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+// console.log(arr[0]);
+// let number = [1,2,3];
+// alert(number[0] + number[1] + number[2]);
+// let r = [2, 5, 3, 9];
+// alert(r[0] * r[1] + r[2] * r[3]);
+// let arr = [1,2,3];
+// console.log(arr[arr.length -3]);
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits.push("Kiwi"));
+// console.log(fruits);
+// let a = ['hello', 555, true, false, 888];
+// let b = ['skyeng', 7777, false, 786];
+// let c = [54786, false, 675];
+// console.log(a.shift());
+// console.log(a.unshift('Rom'));
+// console.log(a.concat(b, c));
+// console.log(a);
+ const fruits = ["Banana", "Orange", "Apple", "Mango"];
+ delete fruits[0];
+ console.log(fruits);

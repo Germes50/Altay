@@ -1,0 +1,30 @@
+/* p{
+    color:blueviolet;
+    font-size: 13px;
+    background: black; */
+
+.text1{
+    color:red;
+}
+.text2{
+    color:green;
+}
+.text3{
+    color:aquamarine;
+}
+#text{
+    color:brown;
+}
+
+ul li{
+    color:gold;
+}
+p > i{
+background: beige;
+}
+input[type="text"]{
+background:cadetblue;
+}
+b, em, del{
+color: brown;
+}

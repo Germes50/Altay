@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Портфолио</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Егор Старшинов</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">Обо мне</a></li>
+            <li><a href="#skills" class="nav-link">Навыки</a></li>
+            <li><a href="#projects" class="nav-link">Проекты</a></li>
+            <li><a href="#contact" class="nav-link">Контакты</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <!-- Person Section -->
+    <section class="person" id="about">
+        <img src="assets/images/Картинка для person section.png" alt="Картинка" loading="lazy" class="person.img">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">Обо мне</h2>
+            <p class="bio-text">
+                Меня зовут Старшинов Егор. Я родился 18.05.2012. Обучаюсь в онлайн-школе Skysmart на создание сайтов.
+            </p>
+        </div>
+    </section>
+    <!-- More about -->
+    <section class="more-about">
+        <h2>Дополнительная информация обо мне</h2>
+        <p>Сейчас учусь в 6 классе.</p>
+        <p>Я отличник.</p>
+        <p>Мне нравится узнавать новое.</p>
+    </section>
+    <!--Skills section -->
+    <section class="skills" id="skills">
+        <h3 class="skills-header">Мои навыки</h3>
+        <div class="skills-wrapper">
+            <div class="skills-set">
+                <img src="assets/icons/html.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/css.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/javascript.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="skill-set">
+                <img src="assets/icons/bootstrap.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/react-native.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/git.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+    <!--Projects section-->
+    <section class="projects" id="projects">
+        <h3 class="projects-title">Некоторые мои проекты</h3>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/images/calc.png" alt="Проект-калькулятор" loading="lazy" class="project-pic">
+                <h4 class="project-title">Калькулятор</h4>
+                <p class="project-details">
+                   Проект-калькулятор был создан чтобы быстро что нибудь высчитать.
+                </p>
+                <a href="#" target="_blank" class="project-link">Узнать больше</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/food.png" alt="Сайт еды" loading="lazy" class="project-pic">
+                <h4 class="project-title">Сайт еды</h4>
+                <p class="project-details">
+                   На сайте еды можно найти различные рецепты и фотографии блюд.
+                </p>
+                <a href="#" target="_blank" class="project-link">Узнать больше</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/portfolio.png" alt="Проект-портфолио" loading="lazy" class="project-pic">
+                <h4 class="project-title">Проект-портфолио</h4>
+                <p class="project-details">
+                   Портфолио(вы находитесь на нём) бфло создано чтобы люди могли больше узнать обо мне.
+                </p>
+                <a href="#" target="_blank" class="project-link">Узнать больше</a>
+            </div>
+        </div>
+    </section>
+    <!--Contact section-->
+    <section class="contact" id="contact">
+        <h4>Связаться со мной</h4>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="form-control">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" name="send-name" placeholder="Введите своё имя" class="input-field"
+                            required>
+                        <div class="form-control">
+                            <label for="email">Почта</label>
+                            <input type="email" id="email" name="send-email" placeholder="Введите свою почту"
+                                class="input-field" required>
+                            <div class="form-contol"></div>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="60" rows="10"
+                                placeholder="Введите своё сообщение" class="input-field" required>
+                    </textarea>
+                            <div class="form-control">
+                                <input type="submit" value="Отправить" id="submit-btn" class="submit-btn">
+                            </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Social accounts - Fixed to the right-->
+    <div class="socials">
+    <a href="#" target="_blank">
+        <img src="assets/icons/twit.gif"
+         alt="twitter"
+         loading="lazy"
+         class="socicon"
+        >
+    </a>
+    <a href="#" target="_blank">
+        <img src="assets/icons/insta.gif"
+         alt="instagram"
+         loading="lazy"
+         class="socicon"
+        >
+    </a>
+    <a href="#" target="_blank">
+        <img src="assets/icons/link.gif"
+         alt="linkedin"
+         loading="lazy"
+         class="socicon"
+        >
+    </a>
+    <a href="#" target="_blank">
+        <img src="assets/icons/github.gif"
+         alt="github"
+         loading="lazy"
+         class="socicon"
+        >
+    </a>
+    </div> 
+    <!--Scroll to top-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icons/иконка стрелки.gif" 
+        alt="scroll-up"
+        class="socicon up-arrow"
+        >
+    </i>
+    <!--Fotter section-->
+    <footer>
+        <p class="copy">© Copyright 2024</p>
+        <p class="copy">Создано
+            <a href="#" target="_blank"> Старшиновым Егором</a>
+        </p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+    </script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

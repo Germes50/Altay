@@ -1,0 +1,40 @@
+/* div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+} */
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    position: relative;
+}
+
+ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    background: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: -20px;
+}
+p::first-line{
+    font-size: 30px;
+    color: #20B2AA;
+}
+input[type="text"]:focus{
+    color: #551A8B;
+    background: #00FF7F;
+    border: 1px solid darkorchid
+}
+
+input[type="submit"]:hover{
+    color: #551A8B;
+    background: #00FF7F;
+    border: 1px solid darkorchid
+}

@@ -1,0 +1,26 @@
+.container {
+    height: 600px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+}
+
+.box {
+     min-width: 200px;
+   min-height: 200px; 
+    border: 1px solid #000;
+}
+
+.box1 {
+    background: #FF1493;
+}
+
+.box2 {
+    background: #0000FF;
+}
+
+.box3 {
+    background: #EE82EE;
+}
